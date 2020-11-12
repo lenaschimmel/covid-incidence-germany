@@ -14,6 +14,7 @@ _Note: during the (late) devlopment of this script, I learned about [rki-covid-a
 You can either run this script:
  * using Docker
    * e.g. like this: `docker build -t cig . && docker run cig`
+   * the docker version uses a `cron` job to update the data every 4 hours
  * directly, if you are on a unix-like system and have:
    * `curl`
    * `gzip`

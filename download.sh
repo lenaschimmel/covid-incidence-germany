@@ -73,6 +73,6 @@ while read ID; do
         echo "$ID,$LANDKREIS,$SUM_CURR" >> output/$REFDATE/resultSum.csv
     done
 done <IdLandkreis.csv
-
+tar -czvf output.tar.gz output
 rm -rf tmp
 echo "Fertig"

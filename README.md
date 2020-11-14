@@ -2,7 +2,7 @@
 A simple (but inefficient) bash script to generate weekly incidence data for each administrative district (Landkreis)
 
 ## Use case
-The Robert Koch Institut (short: RKI) provides daily stats on the Covid-19 infections in Germany. They are available via ArcGIS [as API](https://npgeo-corona-npgeo-de.hub.arcgis.com/datasets/dd4580c810204019a7b8eb3e0b329dd6_0) and [as a CSV download](https://www.arcgis.com/home/item.html?id=f10774f1c63e40168479a1feb6c7ca74). The data is also [archived by the NDR](https://github.com/NorddeutscherRundfunk/corona_daten) (Norddeutscher Rundfunk).
+The Robert Koch Institut (short: RKI) provides daily stats on the Covid-19 infections in Germany. They are available via ArcGIS [as API](https://npgeo-corona-npgeo-de.hub.arcgis.com/datasets/dd4580c810204019a7b8eb3e0b329dd6_0) and [as a CSV download](https://www.arcgis.com/home/item.html?id=f10774f1c63e40168479a1feb6c7ca74). The data is also [archived by the NDR as CSV](https://github.com/NorddeutscherRundfunk/corona_daten "Norddeutscher Rundfunk - Northern German Broadcast") and [by the ARD as JSON](https://github.com/ard-data/2020-rki-archive "Arbeitsgemeinschaft der öffentlich-rechtlichen Rundfunkanstalten der Bundesrepublik Deutschland – Working group of public broadcasters of the Federal Republic of Germany").
 
 All of these data sources contain a lot of details, even up to individual infection cases.
 

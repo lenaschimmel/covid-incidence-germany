@@ -1,4 +1,6 @@
 # covid-incidence-germany
+_This project can be used as-is, but is has been created to work in conjunction with [riskjournal](https://github.com/lenaschimmel/riskjournal)._
+
 A simple (but inefficient) bash script to generate weekly incidence data for each administrative district (Landkreis)
 
 ## Use case

@@ -1,3 +1,7 @@
+
+# Deprecation note:
+**During the (late) devlopment of this script, I learned about [rki-covid-api](https://github.com/marlon360/rki-covid-api) which offers this data, but as far as I could tell, only the most current data. For another project, I needed data for past days/weeks, so I continued working on this script. Now, rki-covid-data also has historic data, _so this project is no longer needed_.**
+
 # covid-incidence-germany
 _This project can be used as-is, but is has been created to work in conjunction with [riskjournal](https://github.com/lenaschimmel/riskjournal)._
 
@@ -9,8 +13,6 @@ The Robert Koch Institut (short: RKI) provides daily stats on the Covid-19 infec
 All of these data sources contain a lot of details, even up to individual infection cases.
 
 The political discurse in Germany around Covid-19, as well as many tools (like [Microcovid](https://www.microcovid.org)) operate with _incidence data_, specifically with the number of new Covid-19 cases per 100.000 inhabitants during the past 7 days, for each administrative district (Landkreis). **It seems that this incidence data is not readily available anywhere.**
-
-_Note: during the (late) devlopment of this script, I learned about [rki-covid-api](https://github.com/marlon360/rki-covid-api) which offers this data, but as far as I can tell, only the most current data. For another project, I need data for past days/weeks, so I continued working on this script._
 
 ## Requirements
 You can either run this script:
